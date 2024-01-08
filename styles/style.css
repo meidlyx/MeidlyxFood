@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Long+Cang&family=Rubik+Bubbles&family=Rubik+Doodle+Shadow&family=Shizuru&display=swap');
+
+@font-face {
+    font-family: 'SFProText-Light';
+    src: url('font-family/SFProText-Light.ttf');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: SFProText-Light;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #101010;
+    color: white;
+}
+main {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    
+}
+
+.logo {
+    font-size: 30px;
+    font-family: Rubik Bubbles;
+    transition: 1s;
+    padding-right: 10px;
+    margin-top: 3px;
+    margin-left: 50px;
+}
+.logo:hover {
+    font-size: 33px;
+    color: red;
+    transition: 1s;
+}
+.search {
+    background-color: #131313;
+    border: solid #232323;
+    border-radius: 10px;
+    padding: 5px;
+    padding-right: 200px;
+    transition: 1s;
+    margin-left: 50px;
+    color: white;
+}
+.search:hover {
+    transition: 1s;
+    border-radius: 20px;
+    padding-right: 220px;
+    padding-left: 10px;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    transition: 1s;
+    margin-left: 70px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    
+}
+.nav1 {
+    transition: 1s;
+    background-color: #292829;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.nav1:hover {
+    transition: 1s;
+    background-color: #341034;
+}
+
+.content2 h1 {
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.content2 img {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.content3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    justify-content: center;
+}
+.content3 b {
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.fot {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.fot p, b {
+    padding: 5px;
+    transition: 1s;
+}
+.fot p:hover {
+    color: red;
+    transition: 1s;
+}
+
+@media screen and (max-width:900px) {
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    header {
+        flex-direction: column;
+    }
+    .logo {
+        margin-bottom: 10px;
+    }
+    .search {
+        padding: 15px;
+        margin: 10px;
+    }
+    .nav {
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav1 {
+        margin: 5px;
+    }
+    .ads img {
+        width: 350px;
+        height: 100px;
+    }
+    .content2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+.ads {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+img {
+    border-radius: 10px;
+}
+.ots {
+    margin-top: 3px;
+    margin-right: 10px;
+}
+a {
+    color: white;
+}
