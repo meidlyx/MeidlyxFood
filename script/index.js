@@ -3,10 +3,9 @@ const adres = prompt('С какого вы города?');
             const cityTab = document.getElementById('cityTab');
             const cityLink = cityTab.querySelector('a');
 
-             // Установим текст во вкладке "Ваш город"
-            cityLink.textContent = `Ваш город: ${adres}`;
             
-            // Уменьшим размер шрифта, если текст слишком длинный
+            cityLink.textContent = `Ваш город: ${adres}`;
+            
             if (adres.length > 10) {
                 cityLink.style.fontSize = '12px';
             }
